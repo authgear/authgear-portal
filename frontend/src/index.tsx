@@ -14,4 +14,6 @@ import "./index.scss";
 import React from "react";
 import { render } from "react-dom";
 
-render(<p>Hello World</p>, document.getElementById("react-app-root"));
+import App from "./App";
+
+render(<App />, document.getElementById("react-app-root"));
